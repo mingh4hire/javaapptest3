@@ -9,10 +9,7 @@ public class Runit {
     public String add(int a, int b){
         return "a" + a + b;
     }
-    @RequestMapping("/")
-    public String aaa(){
-        return "a";
-    }
+
     @RequestMapping("/bbbb")
     public String aaab(Integer a){
 
@@ -20,10 +17,7 @@ public class Runit {
         return Math.pow(a,2) + "";
     }
 
-    @RequestMapping("")
-    public String nbnb(){
-        return "b";
-    }
+
     @RequestMapping("add2")
     public String add2(int a, int b){
         return "a" + a + b;
