@@ -9,6 +9,10 @@ public class Runit {
     public String add(int a, int b){
         return "a" + a + b;
     }
+    @RequestMapping("mult")
+    public String mult(int a, int b){
+        return "" + ( a* b);
+    }
 
     @RequestMapping("/bbbb")
     public String aaab(Integer a){
